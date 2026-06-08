@@ -19,4 +19,5 @@ public class Main {
         System.out.println("Explicación: " + tarjeta.getExplicacion());
 
     }
+    //falta opciones y mas generadores
 }
