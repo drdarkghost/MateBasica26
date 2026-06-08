@@ -1,3 +1,5 @@
+package modelo;
+
 public class Flashcard {
 
     private String ejercicio;
@@ -20,5 +22,23 @@ public class Flashcard {
         this.nivel = nivel;
     }
 
-    // faltan getters
+    public String getEjercicio() {
+        return ejercicio;
+    }
+
+    public String getRespuesta() {
+        return respuesta;
+    }
+
+    public String getExplicacion() {
+        return explicacion;
+    }
+
+    public String getTema() {
+        return tema;
+    }
+
+    public String getNivel() {
+        return nivel;
+    }
 }
